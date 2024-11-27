@@ -9,6 +9,8 @@ import { bootstrapESM } from './bootstrap-esm.js';
 
 performance.mark('code/fork/start');
 
+console.log("test 1")
+clg.log("test 2")
 //#region Helpers
 
 function pipeLoggingToParent(): void {
