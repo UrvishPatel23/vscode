@@ -9,8 +9,13 @@ import { bootstrapESM } from './bootstrap-esm.js';
 
 performance.mark('code/fork/start');
 
-console.log("test 1")
-clg.log("test 2")
+function bowser(){
+	return Promise((req,res)=>{
+		cosole.lg("hello world!")
+		if(n > 3){rej("not conditioned")}
+		res("hello")
+	})
+}
 //#region Helpers
 
 function pipeLoggingToParent(): void {
